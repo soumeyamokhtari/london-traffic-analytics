@@ -70,3 +70,20 @@ Department for Transport – Traffic Count Point Data
 Major Road Network / Major Road Database (MRN / MRDB)
 
 AADF (Average Annual Daily Flow)
+
+## Technical Stack
+
+Python
+GeoPandas
+Scikit-Learn
+XGBoost / LightGBM
+SHAP
+Matplotlib
+
+## Results
+
+Identification of high-density congestion hotspots across London boroughs
+
+Validated relationship between road type and traffic volume
+
+Interpretable ML model explaining key drivers of traffic intensity
