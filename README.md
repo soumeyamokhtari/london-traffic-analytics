@@ -1,5 +1,5 @@
-##London Traffic Analytics: Predictive Modelling & Geospatial Insights##
-#Project Overview
+# London Traffic Analytics: Predictive Modelling & Geospatial Insights
+## Project Overview
 
 This group consultancy project analyses traffic patterns across London using Department for Transport (DfT) datasets.
 
@@ -13,15 +13,15 @@ Develop a predictive machine learning model for traffic volume forecasting
 
 Deliver actionable insights to support urban planning and congestion management
 
-Project Type
+## Project Type
 
 Group consultancy project (4 members)
 
-My Contribution
+## My Contribution
 
 I led the Geospatial Processing and Machine Learning components of the project.
 
-Geospatial Engineering
+### Geospatial Engineering
 
 Built a GeoPandas pipeline to process spatial traffic datasets
 
@@ -31,7 +31,7 @@ Mapped AADF (Average Annual Daily Flow) values to London boroughs
 
 Created hotspot visualisations to identify high-congestion zones
 
-Statistical Validation
+### Statistical Validation
 
 Formulated and tested hypotheses (H1–H3) examining relationships between:
 
@@ -43,7 +43,7 @@ Spatial distribution of congestion
 
 Conducted statistical testing to validate findings
 
-Machine Learning Pipeline
+### Machine Learning Pipeline
 
 Developed a gradient-boosted regression model (XGBoost / LightGBM)
 
@@ -61,7 +61,7 @@ Error distribution analysis
 
 Applied SHAP for model interpretability to identify key traffic drivers
 
-Data Sources
+## Data Sources
 
 Department for Transport (DfT) – Local Authority Traffic Data
 
