@@ -3,12 +3,6 @@
 ## Project Type
 Group consultancy project (4 members)
 
-## Team
-- Soumeya Mokhtari – Data Analysis, Geospatial Processing, ML Modelling
-- Team Member 2 – Dashboard & Visualisation
-- Team Member 3 – Data Engineering
-- Team Member 4 – Cybersecurity / Risk
-
 ## Client Context
 Local Authority / London transport decision-making
 
