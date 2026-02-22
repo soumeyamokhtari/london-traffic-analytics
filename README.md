@@ -35,31 +35,31 @@ Created hotspot visualisations to identify high-congestion zones
 
 Formulated and tested hypotheses (H1–H3) examining relationships between:
 
-Road classification
+- Road classification
 
-Traffic intensity
+- Traffic intensity
 
-Spatial distribution of congestion
+- Spatial distribution of congestion
 
-Conducted statistical testing to validate findings
+- Conducted statistical testing to validate findings
 
 ### Machine Learning Pipeline
 
-Developed a gradient-boosted regression model (XGBoost / LightGBM)
+Developed a gradient-boosted regression model (XGBoost / LightGBM).
 
-Implemented time-aware train/test splitting
+Implemented time-aware train/test splitting.
 
-Applied TimeSeries Cross-Validation to prevent data leakage
+Applied TimeSeries Cross-Validation to prevent data leakage.
 
 Performed model evaluation using:
 
-MAE / RMSE
+- MAE / RMSE
 
-Parity plots
+- Parity plots
 
-Error distribution analysis
+- Error distribution analysis
 
-Applied SHAP for model interpretability to identify key traffic drivers
+- Applied SHAP for model interpretability to identify key traffic drivers
 
 ## Data Sources
 
@@ -82,8 +82,8 @@ Applied SHAP for model interpretability to identify key traffic drivers
 
 ## Results
 
-Identification of high-density congestion hotspots across London boroughs
+Identification of high-density congestion hotspots across London boroughs.
 
-Validated relationship between road type and traffic volume
+Validated relationship between road type and traffic volume.
 
-Interpretable ML model explaining key drivers of traffic intensity
+Interpretable ML model explaining key drivers of traffic intensity.
