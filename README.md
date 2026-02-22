@@ -5,13 +5,13 @@ This group consultancy project analyses traffic patterns across London using Dep
 
 The objective was to:
 
-Identify congestion hotspots using spatial analysis
+- Identify congestion hotspots using spatial analysis
 
-Validate statistical relationships between road type and traffic intensity
+- Validate statistical relationships between road type and traffic intensity
 
-Develop a predictive machine learning model for traffic volume forecasting
+- Develop a predictive machine learning model for traffic volume forecasting
 
-Deliver actionable insights to support urban planning and congestion management
+- Deliver actionable insights to support urban planning and congestion management
 
 ## Project Type
 
@@ -63,22 +63,22 @@ Applied SHAP for model interpretability to identify key traffic drivers
 
 ## Data Sources
 
-Department for Transport (DfT) – Local Authority Traffic Data
+- Department for Transport (DfT) – Local Authority Traffic Data
 
-Department for Transport – Traffic Count Point Data
+- Department for Transport – Traffic Count Point Data
 
-Major Road Network / Major Road Database (MRN / MRDB)
+- Major Road Network / Major Road Database (MRN / MRDB)
 
-AADF (Average Annual Daily Flow)
+- AADF (Average Annual Daily Flow)
 
 ## Technical Stack
 
-Python
-GeoPandas
-Scikit-Learn
-XGBoost / LightGBM
-SHAP
-Matplotlib
+- Python
+- GeoPandas
+- Scikit-Learn
+- XGBoost / LightGBM
+- SHAP
+- Matplotlib
 
 ## Results
 
