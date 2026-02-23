@@ -1,4 +1,13 @@
 # London Traffic Analytics: Predictive Modelling & Geospatial Insights
+
+## 📊 Project Visuals
+
+### Dashboard
+![Tableau Dashboard](docs/Dashboard.png)
+
+### Model Explainability
+![SHAP Feature Importance](docs/SHAP.png)
+
 ## Project Overview
 
 This group consultancy project analyses traffic patterns across London using Department for Transport (DfT) datasets.
