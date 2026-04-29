@@ -1,14 +1,5 @@
 # London Traffic Analytics: Predictive Modelling & Geospatial Insights
 
-## 📊 Project Visuals
-
-### Dashboard
-![Tableau Dashboard](docs/Dashboard.png)
-
-### Model Explainability
-
-
-
 ### 1. Project Overview & Objective
 This consultancy project analysed traffic patterns across London using Department for Transport (DfT) datasets. The objective was to move beyond historical reporting to build a predictive machine learning model for traffic volume forecasting, providing actionable insights for urban planning and congestion management.
 
@@ -27,11 +18,11 @@ While the overall predictive model and final presentations were a collaborative 
 * **The "Central London" Myth (Hypothesis 3):** We tested if the top 20% of boroughs accounted for >50% of traffic. The hypothesis was rejected: a Pareto-style analysis revealed the top 20% account for only **38.7%** of total traffic in 2024. This proves congestion is a widely dispersed, city-wide issue rather than being strictly centralised.
 * **The COVID-19 Impact & Recovery (Hypothesis 2):** Time-series data validated a massive drop in traffic during the 2020 pandemic. By calculating the median post-2021 slope across 33 boroughs, I proved a positive, gradual recovery trend of **6.62 million vehicles/year**, which is critical for long-term transport revenue forecasting.
 
-> *(Insert your Interactive Traffic Trend line chart image here)*
+> *![Tableau Dashboard](docs/newplot.png)* 
 
 * **Predictive Model Performance:** The team evaluated multiple models, with **XGBoost** heavily outperforming the others (achieving an R² of 0.999). 
 
-> *[MAE and RMSE Comparison bar chart](docs/MAE and RMSE.png)*
+> *![MAE and RMSE](docs/MAE and RMSE.png)* 
 
 * **Key Traffic Drivers:** Using my SHAP analysis on the team's XGBoost model, we discovered that short-term historical traffic trends (1-year and 2-year lags) are the strongest predictors of future volume, followed closely by specific geographical markers like the borough of Hillingdon.
 
@@ -45,6 +36,5 @@ While the overall predictive model and final presentations were a collaborative 
 
 ### 5. Repository Structure
 * `/dashboard`: ![Tableau Dashboard](docs/Dashboard.png).
-* `/docs`: Project reports, hypotheses (H1-H3), and statistical validation details.
-* `/notebooks`: Jupyter notebooks containing the GeoPandas pipelines and XGBoost models.
-* `/outputs`: Generated maps, SHAP parity plots, and error distribution charts.
+* `/notebooks: Jupyter notebooks containing the GeoPandas pipelines and XGBoost models.
+
