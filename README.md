@@ -22,7 +22,7 @@ While the overall predictive model and final presentations were a collaborative 
 
 * **Predictive Model Performance:** The team evaluated multiple models, with **XGBoost** heavily outperforming the others (achieving an R² of 0.999). 
 
-> *![MAE and RMSE](docs/MAE and RMSE.png)* 
+> *![MAE and RMSE Comparison Across Models](docs/Comparison.png)*
 
 * **Key Traffic Drivers:** Using my SHAP analysis on the team's XGBoost model, we discovered that short-term historical traffic trends (1-year and 2-year lags) are the strongest predictors of future volume, followed closely by specific geographical markers like the borough of Hillingdon.
 
@@ -34,7 +34,6 @@ While the overall predictive model and final presentations were a collaborative 
 * **Geospatial Processing:** GeoPandas
 * **Data Sources:** DfT Local Authority Traffic Data, Major Road Database (MRDB), AADF
 
-### 5. Repository Structure
-* `/dashboard`: ![Tableau Dashboard](docs/Dashboard.png).
-* `/notebooks: Jupyter notebooks containing the GeoPandas pipelines and XGBoost models.
+### 4. Dashboard
+![Tableau Dashboard](docs/Dashboard.png).**
 
