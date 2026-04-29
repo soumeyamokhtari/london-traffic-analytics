@@ -31,7 +31,7 @@ While the overall predictive model and final presentations were a collaborative 
 
 * **Predictive Model Performance:** The team evaluated multiple models, with **XGBoost** heavily outperforming the others (achieving an R² of 0.999). 
 
-> *(Insert your MAE/RMSE Comparison bar chart image here)*
+> *[MAE and RMSE Comparison bar chart](docs/MAE and RMSE.png)*
 
 * **Key Traffic Drivers:** Using my SHAP analysis on the team's XGBoost model, we discovered that short-term historical traffic trends (1-year and 2-year lags) are the strongest predictors of future volume, followed closely by specific geographical markers like the borough of Hillingdon.
 
